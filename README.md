@@ -1,4 +1,3 @@
-% Matteo Possamai
 
 # Portfolio :books:
 
