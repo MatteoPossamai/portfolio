@@ -29,6 +29,7 @@ function Header() {
             classes += " sticky";
         }
         setAgileClasses(classes);
+        console.log(classes);
 
     }, [isOnTop, isSticky]);
 

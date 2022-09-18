@@ -21,6 +21,7 @@ function HomePage() {
                 </div>
 
                 <CenterPage />
+                <div style={{"height":"1000px"}} ></div>
 
                 <div id = "email">
                     <a className="email-text" href="mailto:mpossamaim@gmail.com"> mpossamaim@gmail.com </a>
