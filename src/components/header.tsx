@@ -41,10 +41,11 @@ function Header() {
                 <a href="#about" className="header-button"><p className="number">01. </p> About</a>
                 <a href="/" className="header-button"><p className="number">02. </p> Job experience</a>
                 <a href="/" className="header-button"><p className="number">03. </p> Projects</a>
-                <a href="/" className="header-button"><p className="number">04. </p> Contact</a>
+                <a href="/" className="header-button"><p className="number">04. </p> Open Source</a>
+                <a href="/" className="header-button"><p className="number">05. </p> Contact</a>
             </div>
         </div>
     );
-    }
+}
 
 export default Header;
