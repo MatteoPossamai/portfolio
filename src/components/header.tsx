@@ -29,7 +29,6 @@ function Header() {
             classes += " sticky";
         }
         setAgileClasses(classes);
-        console.log(classes);
 
     }, [isOnTop, isSticky]);
 
@@ -39,7 +38,7 @@ function Header() {
             <a href="/" className="resume-button">Resume</a>
             
             <div className="header-text">
-                <a href="/" className="header-button"><p className="number">01. </p> About</a>
+                <a href="#about" className="header-button"><p className="number">01. </p> About</a>
                 <a href="/" className="header-button"><p className="number">02. </p> Job experience</a>
                 <a href="/" className="header-button"><p className="number">03. </p> Projects</a>
                 <a href="/" className="header-button"><p className="number">04. </p> Contact</a>

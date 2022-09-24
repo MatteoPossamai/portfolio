@@ -11,6 +11,8 @@
   display: flex;
   flex-direction: row-reverse;
   transition: 0.7s;
+  position: sticky;
+  top: 0;
 }
 
 .shadowed{
@@ -122,7 +124,6 @@
   top: 150px;
   left: 8%;
   width: 90%;
-
 }
 
 .first-line{
@@ -153,4 +154,29 @@
   color: #a8b2d1;
   margin: 30px 0 0 0;
   line-height: 30px;
+}
+
+.about-section{
+  margin-left: 7.5%;
+  width: 90%;
+}
+
+.about-header{
+  margin-top: -100px;
+  font-family: 'Ubuntu Mono';
+  color: #61f7d4;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.header-line{
+  width: 80%;
+  height: 1px;
+  background-color: #61f7d4;
+  margin: 0; 
+}
+
+.long-description a{
+  color: #61f7d4;
+  text-decoration: none;
 }

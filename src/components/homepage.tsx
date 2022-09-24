@@ -1,5 +1,6 @@
 import Header from './header';
 import CenterPage from './centerPage';
+import AboutPage from './about';
 
 function HomePage() {
 
@@ -27,6 +28,8 @@ function HomePage() {
                     <a className="email-text" href="mailto:mpossamaim@gmail.com"> mpossamaim@gmail.com </a>
                     <hr className="email-line" />
                 </div>
+
+                <AboutPage />
             </div>
         </div>
     );
