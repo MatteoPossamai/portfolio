@@ -42,7 +42,7 @@ function Header() {
                 
                 <div className="header-text">
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>
-                    <a href="/" className="header-button"><p className="number">02. </p> Job experience</a>
+                    <a href="#job" className="header-button"><p className="number">02. </p> Job experience</a>
                     <a href="/" className="header-button"><p className="number">03. </p> Projects</a>
                     <a href="/" className="header-button"><p className="number">04. </p> Open Source</a>
                     <a href="/" className="header-button"><p className="number">05. </p> Contact</a>
@@ -59,7 +59,7 @@ function Header() {
                 <div className="menu-text">
                     <h1 className="menuhead">  Menu</h1>
                     <a href="#about" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">01. </p> About</a>
-                    <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">02. </p> Job experience</a>
+                    <a href="#job" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">02. </p> Job experience</a>
                     <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
                     <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
                     <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>

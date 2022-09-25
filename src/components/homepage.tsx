@@ -1,6 +1,7 @@
 import Header from './header';
 import CenterPage from './centerPage';
 import AboutPage from './about';
+import JobExperience from './job_exp';
 
 function HomePage() {
 
@@ -26,8 +27,8 @@ function HomePage() {
                 </section>
 
                 <CenterPage />
-                <div style={{"height":"750px"}} ></div>
                 <AboutPage />
+                <JobExperience />
             </div>
         </div>
     );
