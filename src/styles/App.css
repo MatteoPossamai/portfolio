@@ -197,6 +197,7 @@
   font-family: 'Ubuntu Mono';
   color: #61f7d4;
   margin: 0;
+  padding: 0 5px 0 0;
 }
 
 .header-line{
@@ -370,7 +371,8 @@
   border-radius: 5px;
   width: 35%;
   transition: .5s;
-  height: 470px;
+  min-height: 470px;
+  height: fit-content;
 }
 
 #zwap{
