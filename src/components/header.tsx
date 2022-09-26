@@ -43,9 +43,9 @@ function Header() {
                 <div className="header-text">
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>
                     <a href="#job" className="header-button"><p className="number">02. </p> Job experience</a>
-                    <a href="/" className="header-button"><p className="number">03. </p> Projects</a>
+                    <a href="#projects" className="header-button"><p className="number">03. </p> Projects</a>
                     <a href="/" className="header-button"><p className="number">04. </p> Open Source</a>
-                    <a href="/" className="header-button"><p className="number">05. </p> Contact</a>
+                    <a href="#contact" className="header-button"><p className="number">05. </p> Contact</a>
                 </div>
                 <svg className="hamburger" viewBox="0 0 100 80" width="40" height="40" onClick={() => {setOpenMenu(!openMenu)}}>
                     <rect width="100" height="20" rx="10" className={openMenu ? "visible":"invisible"}></rect>
@@ -60,9 +60,9 @@ function Header() {
                     <h1 className="menuhead">  Menu</h1>
                     <a href="#about" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">01. </p> About</a>
                     <a href="#job" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">02. </p> Job experience</a>
-                    <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
+                    <a href="#projects" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
                     <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
-                    <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>
+                    <a href="#contact" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>
                 </div>
             </div>
         </>

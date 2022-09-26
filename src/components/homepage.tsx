@@ -2,6 +2,9 @@ import Header from './header';
 import CenterPage from './centerPage';
 import AboutPage from './about';
 import JobExperience from './job_exp';
+import Projects from './projects';
+
+import Contact from './contact';
 
 function HomePage() {
 
@@ -29,6 +32,9 @@ function HomePage() {
                 <CenterPage />
                 <AboutPage />
                 <JobExperience />
+                <Projects />
+
+                <Contact />
             </div>
         </div>
     );
