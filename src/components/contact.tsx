@@ -3,22 +3,15 @@ import emailjs from 'emailjs-com';
 
 function Contact(){
     const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [object, setObject] = useState('');
     const [message, setMessage] = useState('');
 
     function sendEmail(e:any) {
         e.preventDefault();
-        console.log(typeof e)
+        alert('Message sent, we will get back to you shortly');
+        setName('');
+        setMessage('');
     
         emailjs.sendForm('service_hjxkwbs', 'template_857cuv2', e.target, 'CaQprh6guD2WDQioy')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-
-          e.target.reset();
       }
 
     return (
@@ -39,10 +32,8 @@ function Contact(){
                 </p>
             </div>
             <form className="contact-form" onSubmit={sendEmail}>
-                    <input value={name} onChange={(e) =>{setName(e.target.value)}} className="email-form" spellCheck="false" type="text" placeholder="Name" />
-                    <input value={email} onChange={(e) =>{setEmail(e.target.value)}} className="email-form" spellCheck="false" type="email" placeholder="Email" />
-                    <input value={object} onChange={(e) =>{setObject(e.target.value)}} className="email-form" spellCheck="false" type="text" placeholder="Object" />
-                    <textarea value={message} onChange={(e) =>{setMessage(e.target.value)}} className="message-form" spellCheck="false" placeholder="Message" />
+                    <input value={name} onChange={(e) =>{setName(e.target.value)}} className="email-form" spellCheck="false" type="text" placeholder="Your name or email..." name='sender' />
+                    <textarea value={message} onChange={(e) =>{setMessage(e.target.value)}} className="message-form" spellCheck="false" placeholder="Message" name="message" />
                     <button className="submitButton" type="submit">Send</button>
                 </form>
         </section>
