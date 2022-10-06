@@ -147,7 +147,7 @@
   position: absolute;
   top: 150px;
   left: 8%;
-  width: 90%;
+  width: 85%;
 }
 
 .first-line{
@@ -178,21 +178,23 @@
   color: #a8b2d1;
   margin: 30px 0 0 0;
   line-height: 30px;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .about-section{
-  margin-top: 1000px;
+  box-sizing: border-box;
+  margin-top: 900px;
   margin-left: 7.5%;
   width: 90%;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
+  height: 600px;
 }
 
 .logo-img{
   margin: 0 0 0 0;
   position: relative;
-  top: -600px;
-  left: 410px;
+  top: -450px;
+  left: 530px;
   transform: scale(0.8);
   box-shadow: 20px 20px 10px #61f7d4;
   transition: 0.3s;
@@ -376,6 +378,7 @@
   }
   .about-section{
     margin-top: 1200px;
+    height: 1000px;
   }
   .job-exp-div{
     margin-left: 5%;
@@ -396,9 +399,9 @@
 
 /* Work session code */
 .job-exp-div{
-  margin-top: 350px;
   margin-left: 6.5%;
   width: 90%;
+  margin-top: 200px;
   scroll-behavior: smooth;
   color: #a8b2d1;
   font-size: 1.5em;
@@ -483,7 +486,6 @@
 .project-section{
   margin: auto;
   margin-left: -2%;
-  margin-top: 50px;
   min-height: 300px;
   width: 90%;
   display: flex;
