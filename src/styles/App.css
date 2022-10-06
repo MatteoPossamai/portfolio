@@ -348,60 +348,11 @@
 }
 /* End of mobile menu code */
 
-/* Media queries */
-@media (max-width: 750px) {
-  .email-wrapper{
-    display: none;
-  }
-  #socials{
-    display: none;
-  }
-  .header-text{
-    display: none;
-  }
-  .resume-button{
-    display: none;
-  }
-  .hamburger{
-    display: block;
-    fill: #a8b2d1;
-    transition: 0.5s;
-    z-index: 100;
-  }
-  .logo-img{
-    display: none;
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 10px;
-  }
-  .about-section{
-    margin-top: 1200px;
-    height: 1000px;
-  }
-  .job-exp-div{
-    margin-left: 5%;
-  }
-
-  .job-exp-div div{
-    display: flex;
-    flex-direction: column;
-  }
-  .workCard{
-    width: 100%;
-    margin: 0;
-    font-size: 0.7em;
-  }
-}
-
-/* End of media queries */
-
 /* Work session code */
 .job-exp-div{
   margin-left: 6.5%;
   width: 90%;
-  margin-top: 200px;
+  margin-top: 350px;
   scroll-behavior: smooth;
   color: #a8b2d1;
   font-size: 1.5em;
@@ -649,3 +600,68 @@
   transition: .3s;
   margin-left: 50px;
 }
+
+
+/* Media queries */
+@media (max-width: 1200px){
+  .project-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-img{
+    margin: 0 0 0 0;
+    position: relative;
+    top: -450px;
+    left: 330px;
+    transform: scale(0.5);
+    box-shadow: 20px 20px 10px #61f7d4;
+    transition: 0.3s;
+  }
+  .logo-img:hover{
+    transform: scale(0.6);
+    box-shadow: 20px 20px 10px #61f7d4;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-wrapper{
+    display: none;
+  }
+  #socials{
+    display: none;
+  }
+  .header-text{
+    display: none;
+  }
+  .resume-button{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    fill: #a8b2d1;
+    transition: 0.5s;
+    z-index: 100;
+  }
+  .logo-img{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+  }
+  .about-section{
+    margin-top: 1200px;
+    height: 1000px;
+  }
+  .job-exp-div{
+    margin-left: 5%;
+  }
+
+  .workCard{
+    font-size: 0.7em;
+  }
+}
+
+/* End of media queries */
