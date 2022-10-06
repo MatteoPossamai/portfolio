@@ -1,0 +1,29 @@
+{
+    "jobs":[
+
+        {
+            "job-role": "Software Engineer Intern",
+            "company": "Zwap.in",
+            "id": "zwap",
+            "company-website": "https://zwap.in/",
+            "working-period": "June 2022 - September 2022",
+            "tasks": [
+                "Worked on the backend refactor of the backend service improving performance by 83%",
+                "Tested the new platform writing all the automated tests, finding and resolving more than 95% of known bugs and errors",
+                "Improved quality and simplicity of work of non-tech collegues, developing no code solutions to retrive data and making automated routines and database queries."
+            ]
+        },
+
+        {
+            "job-role": "Frontend Developer Intern",
+            "company": "Mamix SRL",
+            "id": "MamixSRL",
+            "company-website": "https://mamix.it/",
+            "working-period": "May 2021 - June 2021",
+            "tasks": [
+                "Mainly worked on the maintaniment of the frontend of the company website and a costumer one, improving performance of them by 12%",
+                "Improved by 5% the number of visitor per month in both sites with SEO"
+            ]
+        }
+    ]
+}

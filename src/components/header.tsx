@@ -38,7 +38,9 @@ function Header() {
         <>
             <div className={agileClasses}>
 
-                <a href="/" className="resume-button">Resume</a>
+                <img src="logo.png" alt="logo" className="header-image"/>
+
+                <a href="https://ik.imagekit.io/matteopossamai/CV_PossamaiMatteo_-Wr9eeXbj.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1664982315789" className="resume-button">Resume</a>
                 
                 <div className="header-text">
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>
@@ -47,12 +49,14 @@ function Header() {
                     <a href="/" className="header-button"><p className="number">04. </p> Open Source</a>
                     <a href="#contact" className="header-button"><p className="number">05. </p> Contact</a>
                 </div>
+                
                 <svg className="hamburger" viewBox="0 0 100 80" width="40" height="40" onClick={() => {setOpenMenu(!openMenu)}}>
                     <rect width="100" height="20" rx="10" className={openMenu ? "visible":"invisible"}></rect>
                     <rect y="35" width="100" height="20" rx="10" className={"visible"} id={openMenu ? "" :"right"}></rect>
                     <rect y="70" width="100" height="20" rx="10" className={openMenu ? "visible":"invisible"}></rect>
                     <rect y="35" width="100" height="20" rx="10" className={openMenu ? "invisible":"visible"} id={openMenu ? "" :"left"}></rect>
                 </svg>
+                
             </div>
 
             <div className={openMenu ? "close" : "open"}>
@@ -63,6 +67,7 @@ function Header() {
                     <a href="#projects" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
                     <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
                     <a href="#contact" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>
+                    <a href="https://ik.imagekit.io/matteopossamai/CV_PossamaiMatteo_-Wr9eeXbj.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1664982315789" className="menu-button rsm">Resume</a>
                 </div>
             </div>
         </>

@@ -14,16 +14,18 @@
   transition: 0.7s;
   position: relative;
   top: 0;
+  z-index: 100;
 }
 
 .shadowed{
   box-shadow: 10px 2px 20px #000;
-  opacity: 0.8;
 }
 
 .sticky{
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: -40px;
+  width:100%;
 }
 
 .number{
@@ -176,6 +178,7 @@
   color: #a8b2d1;
   margin: 30px 0 0 0;
   line-height: 30px;
+  max-width: 30%;
 }
 
 .about-section{
@@ -185,12 +188,31 @@
   scroll-behavior: smooth; 
 }
 
+.logo-img{
+  margin: 0 0 0 0;
+  position: relative;
+  top: -600px;
+  left: 410px;
+  transform: scale(0.8);
+  box-shadow: 20px 20px 10px #61f7d4;
+  transition: 0.3s;
+}
+
+.logo-img:hover{
+  box-shadow: 30px 30px 20px #61f7d4;
+  transform: scale(0.84);
+}
+
 .about-header{
   margin-top: -100px;
   font-family: 'Ubuntu Mono';
   color: #a8b2d1;
   font-size: 1.5em;
   margin: 0;
+}
+
+.header-image{
+  position: relative;
 }
 
 .number_heading{
@@ -344,6 +366,30 @@
     transition: 0.5s;
     z-index: 100;
   }
+  .logo-img{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+  }
+  .about-section{
+    margin-top: 1200px;
+  }
+  .job-exp-div{
+    margin-left: 5%;
+  }
+
+  .job-exp-div div{
+    display: flex;
+    flex-direction: column;
+  }
+  .workCard{
+    width: 100%;
+    margin: 0;
+    font-size: 0.7em;
+  }
 }
 
 /* End of media queries */
@@ -351,7 +397,7 @@
 /* Work session code */
 .job-exp-div{
   margin-top: 350px;
-  margin-left: 7.5%;
+  margin-left: 6.5%;
   width: 90%;
   scroll-behavior: smooth;
   color: #a8b2d1;
@@ -455,12 +501,12 @@
   align-items: center;
   transition: .3s;
   text-decoration: none;
-  box-shadow: 8px 8px 30px red;
+  box-shadow: 8px 8px 30px #11f2dc;
 }
 
 .project:hover{
   transform: scale(1.1);
-  box-shadow: 12px 12px 50px red;
+  box-shadow: 12px 12px 50px #11f2dc;
 }
 /* End of projects session code */
 
@@ -510,7 +556,7 @@
 .email-form:focus{
   outline: none;
   border: 6px solid #61f7d4;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .message-form{
@@ -532,7 +578,7 @@
 .message-form:focus{
   outline: none;
   border: 6px solid #61f7d4;
-  transform: scale(1.1);
+  transform: scale(1.01);
   background-color: #0a192f;
 }
 
@@ -583,3 +629,21 @@
   transition: .3s;
 }
 /* End of 404 code */
+
+.rsm{
+  color: #61f7d4;
+  padding: 20px;
+  font-size: 1em;
+  margin-left: 40px;
+  border: #61f7d4 solid 2px;
+  border-radius: 10px;
+  transition: .3s;
+  width: 30%;
+}
+
+.rsm:hover{
+  color: #0a192f;
+  background-color: #61f7d4;
+  transition: .3s;
+  margin-left: 50px;
+}
