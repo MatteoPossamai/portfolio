@@ -2,28 +2,152 @@
     "projects": [
         {
             "project-name": "Mad 4 Science",
-            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"110\" height=\"110\" fill=\"currentColor\" className=\"bi bi-box\" viewBox=\"0 0 16 16\"> <path d=\"M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z\" fill=\"#61f7d4\"></path> </svg>",
             "short-desc":"Pollution's levels tracker ( fullstack application )",
             "path":"/project/mad4",
             "id": "mad4",
-            "stack":" This application has been developed using HTML/CSS/Javascript in the frontend, and a Nodejs-Expressjs API that utilizes PostgreSQL as database"        },
+            "link": "https://mad4feltre.netlify.app/",
+            "github": "https://github.com/MatteoPossamai/Pollution",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "This webapp is a pollution's levels tracker in the Belluno province. It is part of the project of a High School in the territory, that wanted to make the inhabitants aware of the quality of the air and the water in the place they live"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "The webapp displays on a map all the points where measurations have been made, and shows the levels of pollution in the area. The user can also see the data in a table, in time order. The data is fetched from a REST API, that is connected to a database, where the data is stored. The data are furnished by the students that measures them and then register them via admin pannel"
+                },
+                {
+                    "header": "What did I do?",
+                    "body": "I developed the entire application. I created the frontend with the map with Leaflet, and also the Admin pannel, that is used to store data. I created also the REST API and the database from scratch, in order to provide as much fliexibility as possible. Then I linked toghether both the part of the project and deployed them online"
+                },{
+                    "header": "What did I learn?",
+                    "body": "I learned to use and implement maps in web applications with Leaflet. Then, I sharped my skills in backend development, and I learned how to create a REST API and a database from scratch. To be more precise, I become way more familiar with relational database, like PostgreSQL and with Express, and the relationship between them. I also learned how to deploy a web application online, in services like Netlify and Heroku"
+                },
+                {
+                    "header":"Stack",
+                    "body":" This application has been developed using HTML/CSS/Javascript in the frontend, and a Flask API that utilizes SQLite as database"
+                }
+            ]
+        },
 
         {
             "project-name": "moondev.env",
-            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"110\" height=\"110\" fill=\"currentColor\" className=\"bi bi-moon\" viewBox=\"0 0 16 16\"> <path d=\"M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z\" fill=\"#61f7d4\"></path> </svg>",
             "short-desc":"Collaborative online enviroment for developers ( Fullstack application )",
             "path":"/project/moondev",
             "id": "moondev",
-            "stack":" This application has been developed using React in the frontend, and a Nodejs-Expressjs API that utilizes MongoDB as database"
+            "link": "",
+            "github":"https://github.com/MatteoPossamai/moondev.env",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "This application is supposed to be an online, real time coding environment, where developers can work together on a project. Here you can have your own workspace, but also a group one, where you share files and work on them, maybe tryingo to develop a group project. The files can be in multiple languages, and you can also change the theme of the editor"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "Once logged in, you will have two section: the personal one, and the groups one. From here you can create private or public code files, that you can work on once you enter them, by clicking them. Then, you can delete them and modify them. It is pretty simple to do, is intuitive. In the group section, there is also a list of all the partectipants and a shared chat where you can comunicate with each others. "
+                },
+                {
+                    "header": "What did I do?",
+                    "body": "I developed the entire application. I created the frontend with React, and created all the visual content of the project. For the backend, I developed a REST API from scratch with Express, that is able to login and sign up users, handle the files creation, modification and deletion, and also keeps track of the chat itself. It is connected to a MongoDB databsae, that has been entirely created from scratch to store all the data. MongoDB has been chosen because it had to be a NoSQL database, and it is also a document based database, that is perfect for this kind of project"
+                },{
+                    "header": "What did I learn?",
+                    "body": "I learned to use React from scratch. I created the first frontend I ever created with this project. It has been extremely useful to understand concepts like states and contexts, that are very important in React. I also learned how to create a REST API from scratch, and how to connect it to a database. I learned how to use MongoDB. The backend is an Express backend, that is one of the most complicated I have ever written. I learned how to better structures routes and handle all the data and requests, via REST API and also via socket itself, from a lower level"
+                },
+                {   
+                    "header": "Stack",
+                    "body":" This application has been developed using HTML/CSS/Javascript in the frontend, and a Nodejs/Express backend that utilizes MongoDB as database"
+                }
+            ]
         },
 
         {
             "project-name": "Referendum",
-            "icon":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"110\" height=\"110\" fill=\"currentColor\" className=\"bi bi-box\" viewBox=\"0 0 16 16\"> <path d=\"M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z\" fill=\"#61f7d4\"></path> </svg>",
             "short-desc":"Simple social for voting and asking question with only tow possible answers",
             "path":"/project/referendum",
             "id":"referendum",
-            "stack":" This application has been developed using HTML/CSS/Javascript in the frontend, and a Flask API that utilizes SQLite as database"
+            "link": "https://referendum.onrender.com/home",
+            "github":"https://github.com/MatteoPossamai/Referendum",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "This application is a really simple version of a social network like quora or reddit. You have to register, and then you can create a poll with a question, and two different options as answers available, like in a political referendum almost. Other people can go and vote for one of the two options, and you can also see the results of the poll. You can also see the polls of other people, and vote for them"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "Once logged in, you can see in the page your polls and public polls and referendum. You can vore by simply clicking on your choice. You can create a poll clicking the ADD button on the bottom of the file and filling the form. Then it will be available for everyone to see and vote."
+                },
+                {
+                    "header": "What did I do?",
+                    "body": "I developed the entire application. I created it as a dynamic web application, built with Flask API. I built the templates and rendered them into HTML via the API. I developed the login and signup mechanism, and the database that stores all the data."
+                },{
+                    "header": "What did I learn?",
+                    "body": "It has been one of the first projects I've ever made. So I learned a lot expeccialy when it comes to database and backend development. All the process of oauth and login has really interested me and took me quite a lot, but I learned it really well. I also learned how to use Flask, and how to create a dynamic web application"
+                },                
+                {
+                    "header":"Stack",
+                    "body":" This application has been developed using HTML/CSS/Javascript in the frontend, and a Flask API that utilizes SQLite as database"
+                }
+            ]
+        },
+
+        {
+            "project-name": "InShape",
+            "short-desc":"Application to measure and track your fitness progress",
+            "path":"/project/shape",
+            "id": "shape",
+            "link": "https://in-shape.onrender.com/",
+            "github":"https://github.com/MatteoPossamai/InShape",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "This application is divided is two parts. The first one the static one, where you can compute your shape, via some parameters like BMI and body fat percentage. So, here users can verify how is their shape, and if they are in shape or not. The second part is the dynamic one, where users can track their progress, and see how they are improving. They can add their weight, and see how it changes over time, in a quite simple graph"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "For the static part, you only need to access the site, and insert your own data. The project will give you your actual data. For the dynamic part, you need to register in My Journey part, and then start to track your progrss, adding your current weight to the page"
+                },
+                {
+                    "header": "What did I do?",
+                    "body": "I developed the entire application. I created the frontend for the static application and the widget that allows user to do their measurations. Then, I created it as a dynamic web application, built with Flask API. I built the templates and rendered them into HTML via the API. I developed the login and signup mechanism, and the database that stores all the data."
+                },{
+                    "header": "What did I learn?",
+                    "body": "It has been one of the first projects I've ever made. The biggest part of this project was the frontend, with the widgets and the chart part. It has helped me learning something about chartjs, Javascript in general and CSS quite a bit. It has also helped me for the oauth part and the really basics of databases. I also learned how to use Flask, and how to create a dynamic web application"
+                },  
+                {   
+                    "header": "Stack",
+                    "body":" This application has been developed using HTML/CSS/Javascript in the frontend, and Flask backend that utilizes SQLite as database"
+                }
+            ]
+        },
+
+        {
+            "project-name": "Portfolio",
+            "short-desc":"My personal portfolio website ( the site you are in now )",
+            "path":"/project/portfolio",
+            "id": "portfolio",
+            "github":"https://github.com/MatteoPossamai/portfolio",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "It is my personal portfolio. It serves all the informationa about me that are professional relevant. It serves like a presentation of me, available to anyone"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "It is divided in section, each one of them has its own content, like projects or work experiences"
+                },
+                {
+                    "header": "Why did I do that?",
+                    "body": "To have another way of displaying all my competence and knowledge to potential recuiter and employers."
+                },
+                {
+                    "header": "What did I learn?",
+                    "body": "I learned about React and Typescript. How they work togheter, their strength and and all the problems that they can create, given some restrictions and Typescript precision"
+                }, 
+                {   
+                    "header": "Stack",
+                    "body":" This application has been developed using React and Typescript"
+                }
+            ]
         }
     ]
 }

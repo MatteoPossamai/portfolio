@@ -3,7 +3,7 @@ import CenterPage from './centerPage';
 import AboutPage from './about';
 import JobExperience from './job_exp';
 import Projects from './projects';
-
+import OpenSource from './openSource';
 import Contact from './contact';
 
 function HomePage() {
@@ -33,7 +33,7 @@ function HomePage() {
                 <AboutPage />
                 <JobExperience />
                 <Projects />
-
+                <OpenSource />
                 <Contact />
             </div>
         </div>

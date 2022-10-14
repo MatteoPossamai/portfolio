@@ -17,6 +17,7 @@ function Projects(){
             <h3>Here are some of my best projects. Check them out</h3>
             <section className="project-section">
                 {projects['projects'].map((current_project)=>{
+                    console.log(svg_component[current_project['id']])
                     let id: string = current_project['id'];
                     return <article onClick={(e) => navigation(e, current_project["path"])} className="project" id={`${current_project["id"]}`}>
                                 <h2><b className="number_heading">{current_project["project-name"]}</b></h2>

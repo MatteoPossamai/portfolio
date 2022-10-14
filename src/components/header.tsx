@@ -46,7 +46,7 @@ function Header() {
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>
                     <a href="#job" className="header-button"><p className="number">02. </p> Job experience</a>
                     <a href="#projects" className="header-button"><p className="number">03. </p> Projects</a>
-                    <a href="/" className="header-button"><p className="number">04. </p> Open Source</a>
+                    <a href="#os" className="header-button"><p className="number">04. </p> Open Source</a>
                     <a href="#contact" className="header-button"><p className="number">05. </p> Contact</a>
                 </div>
                 
@@ -65,7 +65,7 @@ function Header() {
                     <a href="#about" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">01. </p> About</a>
                     <a href="#job" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">02. </p> Job experience</a>
                     <a href="#projects" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
-                    <a href="/" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
+                    <a href="#os" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
                     <a href="#contact" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>
                     <a href="https://ik.imagekit.io/matteopossamai/CV_PossamaiMatteo_-Wr9eeXbj.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1664982315789" className="menu-button rsm">Resume</a>
                 </div>

@@ -439,8 +439,8 @@
   margin-left: -2%;
   min-height: 300px;
   width: 90%;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project{
@@ -609,10 +609,6 @@
 
 /* Media queries */
 @media (max-width: 1200px){
-  .project-section{
-    display: flex;
-    flex-direction: column;
-  }
   .logo-img{
     margin: 0 0 0 0;
     position: relative;
@@ -626,6 +622,9 @@
     transform: scale(0.6);
     box-shadow: 20px 20px 10px #61f7d4;
     transition: 0.3s;
+  }
+  .project-section{
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -667,6 +666,41 @@
   .workCard{
     font-size: 0.7em;
   }
+  .project-section{
+    grid-template-columns: 80%;
+  }
 }
 
 /* End of media queries */
+
+/* Project single code */
+.projectImage{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.toggleHeader{
+  border: 2px solid #a8b2d1;
+  width: 80%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.toggleBody{
+  border: 2px solid #61f7d4;
+  width: 80%;
+  margin: auto;
+  font-size: .8em;
+}
+
+.bodyIn{
+  padding: 30px;
+}
+
+.projectLink{
+  color: #61f7d4;
+  font-size: 1em;
+  text-decoration: none;
+}
