@@ -2,8 +2,23 @@
   text-align: center;
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
 /* Header code section */
 .header{
+  animation: 1s ease-out 0s 1 slideInFromLeft;
   letter-spacing: 0.07em;
   background-color: #0a192f;
   height: 45px;
@@ -144,6 +159,7 @@
 /* End of social icon part */
 
 .center-page{
+  animation: ease-out 2s slideInFromBottom;
   position: absolute;
   top: 150px;
   left: 8%;
