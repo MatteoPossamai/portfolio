@@ -40,7 +40,7 @@ function Header() {
 
                 <img src="logo.png" alt="logo" className="header-image"/>
 
-                <a href="https://ik.imagekit.io/matteopossamai/CV_PossamaiMatteo_-Wr9eeXbj.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1664982315789" className="resume-button">Resume</a>
+                <a href="https://ik.imagekit.io/matteopossamai/MatteoPossamai_CV_Iy1zQ4U1P.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1667325958995" className="resume-button">Resume</a>
                 
                 <div className="header-text">
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>
@@ -67,7 +67,7 @@ function Header() {
                     <a href="#projects" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">03. </p> Projects</a>
                     <a href="#os" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">04. </p> Open Source</a>
                     <a href="#contact" onClick={() =>{setOpenMenu(!openMenu)}} className="menu-button"><p className="number">05. </p> Contact</a>
-                    <a href="https://ik.imagekit.io/matteopossamai/CV_PossamaiMatteo_-Wr9eeXbj.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1664982315789" className="menu-button rsm">Resume</a>
+                    <a href="https://ik.imagekit.io/matteopossamai/MatteoPossamai_CV_Iy1zQ4U1P.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1667325958995" className="menu-button rsm">Resume</a>
                 </div>
             </div>
         </>
