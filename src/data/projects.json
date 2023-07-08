@@ -1,6 +1,35 @@
 {
     "projects": [
         {
+            "project-name": "My Table",
+            "short-desc":"Application to manage and see restaurant menus",
+            "path":"/project/mytable",
+            "id": "mytable",
+            "link": "",
+            "github": "https://github.com/MatteoPossamai/MyTable",
+            "toggles":[
+                {
+                    "header":"What does it do?",
+                    "body": "This webapp provides a dashboard for the restaurant ownser to handle dynamically his restaurant menu, and a mobile webapp from where a client can see the dynamic menu"
+                },
+                {
+                    "header": "How does it work?",
+                    "body": "The webapp displays on the mobile app all the menu, that on the dashboard can be changed via GUI from the restaurant owner as he prefer, with simple and effective graphics"
+                },
+                {
+                    "header": "What did I do?",
+                    "body": "I developed the entire application. I created the frontend with React in Typescript, creating all the custom css. Then, the backend has beed developed usign Django rest framework, and it is connected to a PostgreSQL database."
+                },{
+                    "header": "What did I learn?",
+                    "body": "I learned to improve the quality of my API endpoints and security. I also learned a lot about reverse proxy and SSL encryption, since I had to set up a custom NGINX instance on an online VPC to deploy the API and the database"
+                },
+                {
+                    "header":"Stack",
+                    "body":" This application has been developed using React in the frontend, and a Django API that utilizes PostgreSQL as database"
+                }
+            ]
+        },
+        {
             "project-name": "Mad 4 Science",
             "short-desc":"Pollution's levels tracker ( fullstack application )",
             "path":"/project/mad4",

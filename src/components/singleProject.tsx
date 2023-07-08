@@ -5,7 +5,7 @@ import projects from "../data/projects.json";
 import svg_component from '../data/svg';
 
 function SingleProject(){
-    const validIds = ['mad4', 'moondev', 'referendum', 'shape', 'portfolio'];
+    const validIds = ['mytable','mad4', 'moondev', 'referendum', 'shape', 'portfolio'];
 
     const id = useParams<{id:string}>();
     

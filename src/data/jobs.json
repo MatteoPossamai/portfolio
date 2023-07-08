@@ -2,6 +2,18 @@
     "jobs":[
 
         {
+            "job-role": "SDE Intern",
+            "company": "AWS: Amazon Web Services",
+            "id": "amzn",
+            "company-website": "https://aws.amazon.com/",
+            "working-period": "July 2023 - September 2023",
+            "tasks": [
+                "Worked in the IDE team, developing new feature for the console",
+                "Write documentation for the new features and the existing ones"
+            ]
+        }, 
+
+        {
             "job-role": "Software Engineer Intern",
             "company": "Zwap.in",
             "id": "zwap",
