@@ -15,8 +15,8 @@ function AboutPage() {
                                                 where I developed their backend system in Django, while I was stating my
                                                 Computer Science degree </p>
 
-            <p className="long-description bold">At the moment, I am doing my Internship as an SDE in Amazon Web
-                                                Services, in the IDE team, developing new integrations and 
+            <p className="long-description bold">At the moment, I am doing my Internship as an SDE in <a href="https://aws.amazon.com/">Amazon Web
+                                                Services (AWS)</a>, in the IDE team, developing new integrations and 
                                                 features for the online platform. </p>
 
             <p className="long-description bold">Here there are the most important technologies I worked 
