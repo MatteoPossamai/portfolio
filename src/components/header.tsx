@@ -40,7 +40,7 @@ function Header() {
 
                 <img src="logo.png" alt="logo" className="header-image"/>
 
-                <a href="https://ik.imagekit.io/matteopossamai/MatteoPossamai_CV_Iy1zQ4U1P.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1667325958995" className="resume-button">Resume</a>
+                <a href="https://ik.imagekit.io/matteopossamai/MatteoPossamai_resume_wZfpW_8A_.pdf?updatedAt=1690710388687" className="resume-button">Resume</a>
                 
                 <div className="header-text">
                     <a href="#about" className="header-button"><p className="number">01. </p> About</a>

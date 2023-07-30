@@ -9,7 +9,9 @@
             "working-period": "July 2023 - September 2023",
             "tasks": [
                 "Worked in the IDE team, developing new feature for the console",
-                "Write documentation for the new features and the existing ones"
+                "Implemented LLM capabilities in the IDE, improving the user experience by 15%",
+                "Creating Infrastructure and business logic for allowing AI connect to IDE and console",
+                "Prompt engineered the user prompt, to get a 20% better LLM response`"
             ]
         }, 
 
@@ -33,7 +35,8 @@
             "company-website": "https://mamix.it/",
             "working-period": "May 2021 - June 2021",
             "tasks": [
-                "Mainly worked on the maintaniment of the frontend of the company website and a costumer one, improving performance of them by 12%",
+                "Worked on the maintaniment of the frontend of the company website and a costumer one, improving performance of them by 12%",
+                "Automaded internal tasks for the site and user experience, allowing the company save time and money",
                 "Improved by 5% the number of visitor per month in both sites with SEO"
             ]
         }
